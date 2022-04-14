@@ -1,0 +1,93 @@
+body {
+    background-image: url(images/Screenshot111.png);
+    background-repeat: no-repeat;
+    background-color: #e0e8ff;
+    min-height: 100%;
+    background-size: cover;
+}
+.card {
+    display: grid;
+    width: 28.1rem;
+    text-align: center;
+    border: none solid none;
+    border-radius: 15px;
+    background-color: white;
+    margin: auto;
+    transition: box-shadow 0.3s;
+}
+
+.musicIcon {
+    position: absolute;
+    left: 25px;
+    top: 15px;
+}
+p {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 16px;
+    color: #8c91a0;
+}
+h1 {
+    font-family: "Red Hat Display", sans-serif;
+    padding-top: 60px;
+}
+h4 {
+    position: relative;
+    right: 80px;
+    bottom: 5px;
+    font-weight: 700;
+}
+.price {
+    position: relative;
+    right: 50px;
+    bottom: 20px;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 16px;
+    color: #8c91a0;
+}
+.changeB {
+    position: relative;
+    left: 100px;
+    bottom: 30px;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 16px;
+}
+
+.card-content {
+    position: relative;
+    display: flexbox;
+    border: none solid none;
+    background-color: #f5fcff;
+    margin: 20px;
+    padding: 1px;
+    border-radius: 15px;
+}
+.button1 {
+    padding: 18px;
+    margin: 25px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: #766cf1;
+    color: aliceblue;
+    text-align: center;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 16px;
+    transition: box-shadow 0.1s;
+}
+.button1:hover {
+    box-shadow: 0px 5px 50px 0px #e0ddfa;
+    cursor: pointer;
+    color: black;
+}
+.button2 {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 16px;
+}
+.button2:hover {
+    cursor: pointer;
+}
